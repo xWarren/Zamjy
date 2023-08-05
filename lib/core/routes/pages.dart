@@ -28,7 +28,7 @@ class Pages {
       binding: RegisterBinding(),
     ),
     GetPage(
-      name: Routes.splash,
+      name: Routes.dashboard,
       page: () => const DashboardPage(),
       binding: DashboardBinding(),
     ),
