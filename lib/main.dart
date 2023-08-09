@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: "Roboto",
+        scaffoldBackgroundColor: Colors.white,
       ),
       initialRoute: Routes.splash,
       getPages: Pages.pages,

@@ -9,12 +9,10 @@ class RegisterPage extends GetView<RegisterController> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(
-        child: Text(
-          "DashboardPage Screen",
-          style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal),
-        ),
+        body: SingleChildScrollView(
+      child: Column(
+        children: [],
       ),
-    );
+    ));
   }
 }
